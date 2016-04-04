@@ -1,0 +1,143 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 95%;
+	padding: 0;
+	margin: 0;
+	background-color: #BEBEBE;
+	color: #555;
+}
+a:link, a:visited {
+	color: #FC0;
+	font-size: 1.1em;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a:hover, a:active {
+	text-decoration: none;
+	color: #FFF;
+}
+
+form a:link, form a:visited , table a:link, table a:visited {
+	color: #666;
+	font-size: 1em;
+	text-decoration: none;
+}
+
+form a:hover, form a:active, table a:hover, table a:active {
+	text-decoration: none;
+	color: #000;
+}
+
+.container {
+	min-width: 395px;
+	max-width: 1280px;
+	width: 90%;
+	box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.80);
+	margin: 0 auto;
+	border-radius: 0 0 6px 6px;
+}
+
+.header {
+	width: 100%;
+	margin: 0;
+	padding: 15px 0;
+	background-color: #444;
+	border: 1px solid #333;
+	border-top-style: none;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #555;
+}
+
+.header h1 {
+	font-size: 3em;
+	color: #FC0;
+	padding: 0 15px;
+	margin: 0;
+}
+
+.header h2 {
+	font-size: 1.1em;
+	color: #EEE;
+	padding: 0 15px;
+	margin: 0;
+}
+
+.navigator {
+	width: 100%;
+	min-height: 30px;
+	margin: 0;
+	padding: 0;
+	background-color: #444;
+	border: 1px solid #333;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #000;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #000;
+}
+
+.navigator ul {
+	margin: 0;
+	padding: 0 0 0 15px;
+	list-style-type: none;
+}
+
+.navigator ul  li{
+	display: inline-block;
+	margin: 0;
+	padding: 5px 15px 0 0;
+}
+
+.content {
+	width: 100%;
+	min-height: 350px;
+	margin: 0;
+	padding: 15px 0;
+	background-color: #F9F9F9;
+	border: 1px solid #666;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #555;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #222;
+}
+
+.content h1, .content p , .content form{
+	padding: 0 30px;
+}
+
+.footer {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	background-color: #444;
+	color: #EEE;
+	border: 1px solid #333;
+	border-radius: 0 0 6px 6px;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #666;
+}
+.footer p {
+	margin: 0;
+	padding: 5px 15px;
+}
+
+table, td {
+border: 1px solid #DFDFDF;
+width: 100%;
+}
+
+td {
+padding: 5px;
+align: 
+}
+h3 {
+padding:0;
+margin:0;
+}

@@ -1,0 +1,47 @@
+
+.contact_form {
+	min-width: 210x;
+	padding: 0 15px;
+}
+
+.contact_form fieldset {
+	font-weight: bold;
+	font-size: 1.1em;
+	display: block;
+	border: none;
+	padding:0;
+}
+
+.contact_form fieldset input {
+	width: 200px;
+	display: block;
+	font-weight: normal;
+	border: 1px solid #CBCBCB;
+	padding: 3px;
+	font-size: 1em;
+	color: #888;
+}
+
+.contact_form input {
+	font-size: 1em;
+}
+
+.contact_form fieldset textarea {
+	width: 275px;
+	display: block;
+	min-height: 100px;
+	margin-bottom: 10px;
+	font-weight: normal;
+	font-size: 1em;
+	resize: vertical;
+	border: 1px solid #CBCBCB;
+	padding: 3px;
+	color: #888;
+}
+
+.contact_form fieldset label {
+	font-weight: normal;
+	display: block;
+	padding: 8px 0 4px;
+	font-size: 1em;
+}

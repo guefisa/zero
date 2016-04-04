@@ -1,0 +1,14 @@
+
+.content a:link, .content a:visited {
+	color: #555;
+	font-size: 1.1em;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-decoration: none;
+	line-height: 45px;
+}
+
+.content a:hover, .content a:active {
+	text-decoration: none;
+	color: #FC0;
+}

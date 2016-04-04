@@ -1,0 +1,38 @@
+.inmo_container{
+	margin:25px;
+}
+
+.inmo_name {
+	margin-top:25px;
+}
+
+.inmo_detalles {
+	margin: 0;
+	padding: 0;
+}
+.inmo_info {
+	clear:both;
+	margin-top: 25px;
+	padding:0;
+}
+.inmo_price {
+	float:right;
+	color: #e17310;
+}
+
+.inmo_img_portada {
+	float:left;
+	height: 155px;
+	background-color: #FFF;
+	border: 1px solid #CCC;
+	padding: 3px;
+	margin: 0 25px 0 0;
+}
+.inmo_img_gallery {
+	float:left;
+	width: 100px;
+	background-color: #FFF;
+	border: 1px solid #CCC;
+	padding: 3px;
+	margin: 0 10px 10px 0;
+}
